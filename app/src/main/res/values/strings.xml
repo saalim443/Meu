@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MeuNavigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_first_fragment">Hello First blank fragment</string>
+    <string name="hello_second_fragment">Hello second blank fragment</string>
+    <string name="hello_third_fragment">Hello third blank fragment</string>
+    <string name="hello_four_fragment">Hello four blank fragment</string>
+</resources>

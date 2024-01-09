@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MeuNavigation" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/offwhite</item>
+        <item name="colorPrimaryDark">@color/offwhite</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Add other customizations as needed -->
+    </style>
+
+    <style name="Theme.MeuNavigation" parent="Base.Theme.MeuNavigation" />
+</resources>

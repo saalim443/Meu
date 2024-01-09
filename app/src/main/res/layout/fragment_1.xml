@@ -1,0 +1,95 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <com.skydoves.elasticviews.ElasticButton
+        android:id="@+id/elasticButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elastic Button"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:layout_margin="10dp"
+        android:background="@color/black"
+        app:button_cornerRadius="4dp"
+        app:button_duration="250"
+        app:button_scale="0.87" />
+
+    <com.skydoves.elasticviews.ElasticCheckButton
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#2196F3"
+        android:text="Text"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:checkButton_cornerRadius="4dp"
+        app:checkButton_alpha="0.7"
+        app:checkButton_duration="400"
+        app:checkButton_scale="0.9" />
+
+    <com.skydoves.elasticviews.ElasticImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"v
+        android:src="@drawable/baseline_add_home_24"
+        android:tint="#3d95c9"
+        app:imageView_scale="0.7"
+        android:visibility="gone"
+        app:imageView_duration="300" />
+
+    <com.skydoves.elasticviews.ElasticFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_add_home_24"
+        android:tint="#ffffff"
+        app:fabSize="mini"
+        android:visibility="gone"
+        app:fabutton_duration="400"
+        app:fabutton_scale="0.85" />
+
+    <com.skydoves.elasticviews.ElasticCardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="12dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardView_duration="250"
+        app:cardView_scale="0.8" >
+
+
+    </com.skydoves.elasticviews.ElasticCardView>
+
+    <com.skydoves.elasticviews.ElasticLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_cornerRadius="4dp"
+        android:layout_margin="10dp"
+        app:layout_duration="500"
+        app:layout_scale="0.85">
+
+        <TextView
+            android:id="@+id/textView0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="ElasticLayout"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:gravity="end" />
+    </com.skydoves.elasticviews.ElasticLayout>
+</LinearLayout>
